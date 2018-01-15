@@ -6,6 +6,7 @@
       </a>
       <ul class="nav navbar-nav">
         <li><router-link to="/">My Works</router-link></li>
+        <li><router-link to='/about'>About Me</router-link></li>
       </ul>
     </nav>
 </template>

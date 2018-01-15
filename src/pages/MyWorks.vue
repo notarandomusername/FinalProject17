@@ -1,0 +1,30 @@
+<template>
+  <div class="wrapper">
+    <div class="heroimg">
+      <div class="herotxt">
+        <h1>{{ msg }}</h1>
+      </div>
+    </div>
+  </div>
+</template>
+
+<script>
+export default {
+  name: 'MyWorks',
+  data() {
+    return {
+      msg: 'My Works',
+    };
+  },
+};
+</script>
+
+<!-- Add "scoped" attribute to limit CSS to this component only -->
+<style scoped>
+.heroimg {
+  background: #085078;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #085078, #4cb8c4);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #085078, #4cb8c4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+</style>
