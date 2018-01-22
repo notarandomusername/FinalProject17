@@ -105,7 +105,7 @@ The percentages refer to the amount of time that has passed (for example, 50% of
   font-size: 96px;
 }
 
-footer {
+/* footer {
   position: fixed;
   right: 0;
   bottom: 0;
@@ -117,7 +117,7 @@ footer {
   font-size: 24px;
   margin-top: -3vh;
   clear: both;
-}
+} */
 
 #app {
   font-family: 'Raleway', sans-serif;
