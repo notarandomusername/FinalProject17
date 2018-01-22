@@ -5,9 +5,9 @@ The <router-view/> tag displays the different pages based on which one is routed
   <div id="app">
     <navbar/>
     <router-view/>
-    <div class="footer">
+    <footer>
       Man, what a beautiful footer. Anyway, this was made with Vue 2 and Bootstrap 4.
-    </div>
+    </footer>
   </div>
 </template>
 
@@ -30,7 +30,7 @@ html {
   margin: 0;
   padding: 0;
   height: 100vh;
-  
+  min-height: 100vh;
 }
 
 h1, h2 {
@@ -107,7 +107,7 @@ The percentages refer to the amount of time that has passed (for example, 50% of
   font-size: 96px;
 }
 
-.footer {
+footer {
   position: fixed;
   right: 0;
   bottom: 0;
@@ -117,6 +117,7 @@ The percentages refer to the amount of time that has passed (for example, 50% of
   text-align: center;
   color: rgba(255, 255, 255, 0.900);
   font-size: 24px;
+  margin-top: -3vh;
 }
 
 #app {
