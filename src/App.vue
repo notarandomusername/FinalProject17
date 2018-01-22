@@ -112,7 +112,7 @@ router-view {
 }
 
 .footer {
-  position: absolute;
+  position: relative;
   right: 0;
   bottom: 0;
   left: 0;
