@@ -113,11 +113,11 @@ The percentages refer to the amount of time that has passed (for example, 50% of
 }
 
 footer {
-  position: absolute;
+  position: fixed;
   right: 0;
   bottom: 0;
   left: 0;
-  padding: 3vh;
+  height: 3vh;
   background-color: #999;
   text-align: center;
   color: rgba(255, 255, 255, 0.900);
