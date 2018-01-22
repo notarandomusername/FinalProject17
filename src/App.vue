@@ -30,7 +30,7 @@ html {
   margin: 0;
   padding: 0;
   height: 100vh;
-  min-height: 100%;
+  min-height: 100vh;
 }
 
 h1, h2 {
@@ -105,6 +105,10 @@ The percentages refer to the amount of time that has passed (for example, 50% of
 
 .herotxt h1 {
   font-size: 96px;
+}
+
+router-view {
+  margin-bottom: -3vh;
 }
 
 .footer {
