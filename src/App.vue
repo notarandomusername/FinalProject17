@@ -108,7 +108,7 @@ The percentages refer to the amount of time that has passed (for example, 50% of
 }
 
 .footer {
-  position: absolute;
+  position: fixed;
   right: 0;
   bottom: 0;
   left: 0;
