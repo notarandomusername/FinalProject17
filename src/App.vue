@@ -35,6 +35,7 @@ html {
   padding: 0;
   height: 100vh;
   min-height: 100vh;
+  overflow: auto;
 }
 
 h1, h2 {
