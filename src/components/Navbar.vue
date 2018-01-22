@@ -1,3 +1,5 @@
+<!-- This is a navbar built with Bootstrap.
+The <router-link> tag is provided by Vue and used by the Vue router. -->
 <template>
     <nav class="navbar navbar-default navbar-fixed-top">
       <a class="navbar-brand">
@@ -13,12 +15,14 @@
     </nav>
 </template>
 
+<!-- This exports the Vue file as a component to be used in App.vue -->
 <script>
 export default {
   name: 'Navbar',
 };
 </script>
 
+<!-- This is the styling for the navbar. -->
 <style>
 * {
   margin: 0;

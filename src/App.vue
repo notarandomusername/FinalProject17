@@ -1,3 +1,6 @@
+<!-- This is the template for all pages on the website.
+The navbar component and the footer component are both located here.
+The <router-view/> tag displays the different pages based on which one is routed to. -->
 <template>
   <div id="app">
     <navbar/>
@@ -8,14 +11,18 @@
   </div>
 </template>
 
+<!-- Here, we import the Navbar and the Footer from their Vue components to be used in the HTML above.
+We export the Vue file to be used in main.js. -->
 <script>
 import Navbar from './components/Navbar';
 export default {
   name: 'app',
-  components: { Navbar },
+  components: { Navbar, },
 };
 </script>
 
+<!-- This is the styling for the website as a whole. 
+Here, we include all the CSS elements shared by both pages. -->
 <style>
 @import url('https://fonts.googleapis.com/css?family=Raleway');
 
@@ -51,7 +58,6 @@ a:active {
   text-decoration: none;
 }
 
-
 .wrapper {
   margin: auto;
   max-width: 65%;
@@ -67,6 +73,8 @@ a:active {
   border: 3px solid #444;
 }
 
+/* This is the CSS for the animation on the gradients.
+The percentages refer to the amount of time that has passed (for example, 50% of 10s is 5 seconds). */
 @-webkit-keyframes hero-img {
   0%{background-position:0% 50%}
   50%{background-position:100% 50%}
