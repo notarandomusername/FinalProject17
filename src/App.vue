@@ -30,7 +30,7 @@ html {
   margin: 0;
   padding: 0;
   height: 100vh;
-  min-height: 100vh;
+  
 }
 
 h1, h2 {
@@ -107,16 +107,12 @@ The percentages refer to the amount of time that has passed (for example, 50% of
   font-size: 96px;
 }
 
-router-view {
-  margin-bottom: -3vh;
-}
-
 .footer {
   position: absolute;
   right: 0;
   bottom: 0;
   left: 0;
-  height: 3vh;
+  padding: 3vh;
   background-color: #999;
   text-align: center;
   color: rgba(255, 255, 255, 0.900);
