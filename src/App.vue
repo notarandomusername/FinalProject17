@@ -112,11 +112,11 @@ router-view {
 }
 
 .footer {
-  position: relative;
+  position: absolute;
   right: 0;
   bottom: 0;
   left: 0;
-  padding: 3vh;
+  height: 3vh;
   background-color: #999;
   text-align: center;
   color: rgba(255, 255, 255, 0.900);
