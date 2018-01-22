@@ -5,8 +5,12 @@ The <router-view/> tag displays the different pages based on which one is routed
   <div id="app">
     <navbar/>
     <router-view/>
-    <footer>
-      Man, what a beautiful footer. Anyway, this was made with Vue 2 and Bootstrap 4.
+    <footer class="mainfooter" role="contentinfo">
+      <div class="footer-top p-y-2">
+        <div class="container-fluid">
+          Man, what a beautiful footer. Anyway, this was built with Vue 2 and Bootstrap 4.
+        </div>
+      </div>
     </footer>
   </div>
 </template>
