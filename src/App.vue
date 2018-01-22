@@ -122,6 +122,7 @@ footer {
   color: rgba(255, 255, 255, 0.900);
   font-size: 24px;
   margin-top: -3vh;
+  clear: both;
 }
 
 #app {
