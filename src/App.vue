@@ -2,6 +2,9 @@
   <div id="app">
     <navbar/>
     <router-view/>
+    <div class="footer">
+      Man, what a beautiful footer. Anyway, this was made with Vue 2 and Bootstrap 4.
+    </div>
   </div>
 </template>
 
@@ -14,36 +17,72 @@ export default {
 </script>
 
 <style>
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
 html {
-    margin: 0;
-    padding: 0;
-    height: 100vh;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
 }
+
 h1, h2 {
   font-weight: normal;
 }
+
 ul {
   list-style-type: none;
   padding: 0;
 }
+
 li {
   display: inline-block;
   margin: 0 10px;
 }
+
 a {
-  color: #42b983;
+  color: #333;
 }
+
+a:hover {
+  text-decoration: none;
+}
+
+a:active {
+  text-decoration: none;
+}
+
+
 .wrapper {
   margin: auto;
-  max-width: 95%;
+  max-width: 65%;
 }
+
 .heroimg {
-  height: 50vh;
+  margin-top: 75px;
+  height: 35vh;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
+  border: 3px solid #444;
 }
+
+@-webkit-keyframes hero-img {
+  0%{background-position:0% 50%}
+  50%{background-position:100% 50%}
+  100%{background-position:0% 50%}
+}
+@-moz-keyframes hero-img {
+  0%{background-position:0% 50%}
+  50%{background-position:100% 50%}
+  100%{background-position:0% 50%}
+}
+@keyframes hero-img { 
+  0%{background-position:0% 50%}
+  50%{background-position:100% 50%}
+  100%{background-position:0% 50%}
+}
+
 .herotxt {
   position: absolute;
 	top: 50%;
@@ -52,17 +91,31 @@ a {
 	-webkit-transform: translate(-50%, -50%);
 	transform: translate(-50%, -50%);
 	color: #fff;
-  font-size: 48px;
-	text-align: center;
 	white-space: nowrap;
 }
+
+.herotxt h1 {
+  font-size: 96px;
+}
+
+.footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 3vh;
+  background-color: #999;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.900);
+  font-size: 24px;
+}
+
 #app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  font-family: 'Raleway', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
 }
-
 </style>

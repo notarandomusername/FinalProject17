@@ -1,8 +1,10 @@
 <template>
     <nav class="navbar navbar-default navbar-fixed-top">
       <a class="navbar-brand">
-        <i class="glyphicon glyphicon-tasks"></i>
-        Portfolio
+        <router-link to="/">
+          <i class="glyphicon glyphicon-tasks"></i>
+          Portfolio
+        </router-link>
       </a>
       <ul class="nav navbar-nav">
         <li><router-link to="/">My Works</router-link></li>
